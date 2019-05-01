@@ -1,0 +1,16 @@
+apply from: "../../java.gradle"
+
+dependencies {
+    compile "org.springframework:spring-jdbc:$springVersion"
+    compile "org.springframework:spring-context:$springVersion"
+    compile "org.springframework:spring-web:$springVersion"
+    compile "org.springframework:spring-tx:$springVersion"
+
+
+    compile "org.hibernate:hibernate-core:5.4.2.Final"
+    compile "org.slf4j:slf4j-api:1.7.26"
+    compile "org.apache.tika:tika-core:1.14"
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.7.0"
+    compile "com.amazonaws:aws-java-sdk:1.11.74"
+
+}
